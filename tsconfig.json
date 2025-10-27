@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "baseUrl": ".",
+    "types": [],
+    "resolvePackageJsonExports": true
+  },
+  "include": ["**/*.ts", "**/*.tsx", "shims.d.ts"],
+  "exclude": ["node_modules", "build"]
+}
